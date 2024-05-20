@@ -1,0 +1,110 @@
+html {
+    background-color: rgb(171, 183, 247);
+    font-family: 'trebuchet MS', serif;
+    margin: 50px auto 50px auto;
+    font-size: 1.1rem;
+}
+
+header {
+    text-align: center;
+    line-height: 0.5;
+    font-weight: 600;
+}
+
+#Survey-form {
+    background-color: #5234d6;
+    width: 700px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 6px;
+    padding: 20px 15px 50px 15px;
+}
+
+.container {
+    width: 100%;
+}
+
+.form-group {
+    line-height: 20px;
+    padding: 30px 30px 0 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control {
+    display: block;
+    height: 30px;
+    width: 630px;
+    border: none;
+    border-radius: 5px;
+    padding: 7PX;
+    background-clip: padding-box;
+    border: 1px solid rgb(212, 254, 255);
+}
+
+.AG {
+    margin-left: 5px;
+    font-size: 0.8rem;
+}
+
+#CR,
+#FF {
+    height: 39px;
+}
+
+.input-radio,
+.input-checkbox {
+    margin: 6px;
+    display: inline-block;
+    min-width: 1.1rem;
+    min-height: 1.2rem;
+}
+
+.comments {
+    margin: 35px;
+    margin-bottom: 0%;
+}
+
+textarea {
+    height: 120px;
+    padding: 10px;
+    border-radius: 6px;
+    width: 650px;
+    margin: 10px;
+}
+
+.submit {
+    height: 40px;
+    width: 100%;
+    color: inherit;
+    background-color: chartreuse;
+    display: block;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    /* margin: 10px;
+    margin-right: 40px; */
+}
+
+button {
+    size: 0.8rem;
+}
+
+/* .submit {
+    height: 40px;
+    border-radius: 5px;
+    color: inherit;
+    background-color: #36e047;
+    width: 100%;
+    border: none;
+    display: block;
+    cursor: pointer;
+  }
+  
+  button {
+    font-size: 0.9rem;
+  }
+   */
+button:hover {
+    transform: scale(1.009);
+  }
